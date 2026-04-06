@@ -13,6 +13,7 @@ services:
     volumes:
       - codexa_db_data:/var/lib/postgresql/data
     restart: unless-stopped
+  
 
 volumes:
   codexa_db_data:
